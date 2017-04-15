@@ -7,7 +7,7 @@ export SPARK_MASTER_OPTS="{{spark_master_opts}}"
 if [ -n "{{spark_worker_instances}}" ]; then
   export SPARK_WORKER_INSTANCES={{spark_worker_instances}}
 fi
-export SPARK_MASTER_WEBUI_PORT ="{{webui_port}}"
+export SPARK_MASTER_WEBUI_PORT="{{webui_port}}"
 export SPARK_WORKER_CORES={{spark_worker_cores}}
 
 export HADOOP_HOME="/root/ephemeral-hdfs"
